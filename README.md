@@ -24,6 +24,21 @@ background: var(--penguin-skin, black);   //black if your variable wasn't set
 --penguin-belly: pink               // var(--penguin-belly) will be available globally    
   }
     
+    text-align: justify;            // each line has equal width.
+    
+    <u> </u>                        // text-decoration: underline
+    
+    <em>                            //italic text
+        
+    <s>                             //text-decoration: line-through;
+        
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);                    //box shadow
+        
+  opacity:  0.7;                    //opacity 0...1
+        
+  
+
+    
 
 
 
