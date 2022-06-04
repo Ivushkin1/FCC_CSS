@@ -11,6 +11,22 @@
 }
 
 <h1 style="color: green;">           //inline styles
+
+#FF0000                             //hex
+    
+rgb(255, 255,255)                   //rgb
+    
+--penguin-skin: gray;               //create a CSS variable
+    
+background: var(--penguin-skin, black);   //black if your variable wasn't set
+    
+ :root {
+--penguin-belly: pink               // var(--penguin-belly) will be available globally    
+  }
+    
+
+
+
   
 
 
