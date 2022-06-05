@@ -36,6 +36,61 @@ background: var(--penguin-skin, black);   //black if your variable wasn't set
         
   opacity:  0.7;                    //opacity 0...1
         
+   a:hover {                        //hover
+  color: blue;
+}
+        
+  p {
+  position: relative;                   //should move it relative to its current position in the normal flow of the page
+  bottom/left/right/top: 10px;
+}
+        
+ position:absolute;                     //locks the element in place relative to its parent container.
+        
+ position : fixed;                      //won't move when the user scrolls.
+        
+float :left/right;                      //left or right of their containing parent element
+        
+z-index:2;                              //When elements are positioned to overlap (i.e. using position: absolute | relative | fixed | sticky), the element coming later in the HTML markup will, by default, appear on the top of the other elements. However, the z-index property can specify the order of how elements are stacked on top of one another
+        
+margin:auto;                            //center a block element horizontally
+        
+background: linear-gradient(95deg,#CCFFFF, #FFCCCC);        //gradient
+        
+background: repeating-linear-gradient(90deg, yellow 0px, blue 30px, green 50px, red 80px )              //linear-gradient
+        
+background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png) ;                     //background png
+        
+div:hover {  transform: scale(2) }                                        //Change the Size of an Element
+        
+background-color: transparent;                          //прозрачный
+        
+.heart::before {
+  content: "";                                          //pseudo-elements
+  background-color: yellow;}
+        
+ #rect {                                                        
+animation-name : rainbow;
+animation-duration: 10s;
+  }
+@keyframes rainbow{
+  0%{
+    background-color: blue;                                 //ANIMATION
+  }50%{
+    background-color: green;
+  }
+  100%{
+    background-color: yellow;
+  }
+}
+    
+
+
+
+
+
+
+        
   
 
     
